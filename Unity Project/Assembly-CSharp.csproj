@@ -46,7 +46,11 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Script\DamagesEnemies.cs" />
+     <Compile Include="Assets\Script\EnemyChase.cs" />
+     <Compile Include="Assets\Script\PlayerAnimator.cs" />
      <Compile Include="Assets\Script\SideStep.cs" />
+     <Compile Include="Assets\Script\Spawner.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
