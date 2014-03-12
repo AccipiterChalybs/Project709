@@ -100,7 +100,6 @@ public class SideStep : MonoBehaviour {
 		{
 		   this.GetComponent<CharacterController>().Move(sideStepDirection * (sideStepDistance/(sideStepInitialTime/Time.deltaTime)));
 		   sideStepTimeLeft -= Time.deltaTime;
-			print (Time.deltaTime);
 		}
 		if (sideStepCoolLeft>0)
 		{

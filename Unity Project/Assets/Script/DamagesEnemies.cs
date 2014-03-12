@@ -3,15 +3,14 @@ using System.Collections;
 
 public class DamagesEnemies : MonoBehaviour {
 
+	public bool attacking;
+
 	void OnTriggerEnter(Collider other)
 	{
-		print ("hit");
-		if (other.gameObject.tag=="Enemy")
+		if (other.gameObject.tag=="Enemy" && attacking)
 		{
-			print ("Ahit");
-			other.transform.position = new Vector3 (Random.Range (-30, 30),
-		                    	                    20,
-		                        	                Random.Range (-30, 30));
+			OrbitalLauncher.__currSpawned --;
+			Destroy (other.gameObject);
 		}
 
 	}

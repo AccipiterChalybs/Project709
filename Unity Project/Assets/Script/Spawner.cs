@@ -9,7 +9,7 @@ public class Spawner : MonoBehaviour
 	public float cooldown=1;
 	private float currCool = 0;
 	public int max=20;
-	private int currSpawned=0;
+	public static int __currSpawned=0;
 
 	public int yOffset;
 
@@ -22,13 +22,13 @@ public class Spawner : MonoBehaviour
 	// Update is called once per frame
 	void Update () 
 	{
-		if (spawnEnabled && currCool>=cooldown && currSpawned<max)
+		if (spawnEnabled && currCool>=cooldown && __currSpawned<max)
 		{
 			Instantiate (itemToCreate, new Vector3(Random.Range(-xRange, xRange),
 			                                       Random.Range(-yRange+yOffset, yRange+yOffset),
 			                                       Random.Range(-zRange, zRange)),
 			                                       Quaternion.identity);
-			currSpawned++;
+			__currSpawned++;
 			currCool = 0;
 		}
 		currCool += Time.deltaTime;

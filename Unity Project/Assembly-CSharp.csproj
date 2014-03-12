@@ -46,11 +46,18 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Script\Attack.cs" />
      <Compile Include="Assets\Script\DamagesEnemies.cs" />
+     <Compile Include="Assets\Script\DropPodDeploy.cs" />
      <Compile Include="Assets\Script\EnemyChase.cs" />
+     <Compile Include="Assets\Script\OrbitalLauncher.cs" />
+     <Compile Include="Assets\Script\PlayerActions.cs" />
      <Compile Include="Assets\Script\PlayerAnimator.cs" />
      <Compile Include="Assets\Script\SideStep.cs" />
      <Compile Include="Assets\Script\Spawner.cs" />
+     <Compile Include="Assets\Script\TransformSpawner.cs" />
+     <Compile Include="Assets\Script\swordHold.cs" />
+     <Compile Include="Assets\Script\walkAnimator.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">

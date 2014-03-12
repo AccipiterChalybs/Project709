@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 0ca7c96d0c775394c9b8f17488d921e4
+guid: ad756fb6252817a43895acc15979c157
 ModelImporter:
   serializedVersion: 15
   fileIDToRecycleName:
@@ -26,11 +26,10 @@ ModelImporter:
     100040: Bone_022
     100042: Bone_023
     100044: Bone_024
-    100046: Camera
-    100048: Circle_002
-    100050: Cube
-    100052: Cylinder_002
-    100054: Hand
+    100046: Circle_002
+    100048: Cube
+    100050: Cylinder
+    100052: Hand
     400000: //RootNode
     400002: Arm1
     400004: Arm2
@@ -54,20 +53,20 @@ ModelImporter:
     400040: Bone_022
     400042: Bone_023
     400044: Bone_024
-    400046: Camera
-    400048: Circle_002
-    400050: Cube
-    400052: Cylinder_002
-    400054: Hand
+    400046: Circle_002
+    400048: Cube
+    400050: Cylinder
+    400052: Hand
     2300000: Cube
-    2300002: Cylinder_002
+    2300002: Cylinder
     3300000: Cube
-    3300002: Cylinder_002
-    4300000: Cube
-    4300002: Circle_002
-    4300004: Cylinder_002
+    3300002: Cylinder
+    4300000: Cylinder
+    4300002: Cube
+    4300004: Circle_002
     7400000: Default Take
-    7400002: walk
+    7400002: 709WBDeploy
+    7400004: 709WBWalk
     9500000: //RootNode
     11100000: //RootNode
     13700000: Circle_002
@@ -90,8 +89,8 @@ ModelImporter:
       name: Default Take
       takeName: Default Take
       firstFrame: 0
-      lastFrame: 74
-      wrapMode: 2
+      lastFrame: 114
+      wrapMode: 0
       orientationOffsetY: 0
       level: 0
       cycleOffset: 0
@@ -162,16 +161,94 @@ ModelImporter:
         weight: 1
       - path: Cube
         weight: 1
-      - path: Cube/Camera
-        weight: 1
-      - path: Cylinder_002
+      - path: Cylinder
         weight: 1
       maskType: 0
       maskSource: {instanceID: 0}
     - serializedVersion: 16
-      name: walk
-      takeName: walk
-      firstFrame: 0
+      name: 709WBDeploy
+      takeName: 709WBDeploy
+      firstFrame: -1
+      lastFrame: 39
+      wrapMode: 1
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature_001
+        weight: 1
+      - path: Armature_001/Bone_009
+        weight: 1
+      - path: Armature_001/Bone_009/Arm1
+        weight: 1
+      - path: Armature_001/Bone_009/Arm1/Arm2
+        weight: 1
+      - path: Armature_001/Bone_009/Arm1/Arm2/Arm3
+        weight: 1
+      - path: Armature_001/Bone_009/Arm1/Arm2/Arm3/Arm4
+        weight: 1
+      - path: Armature_001/Bone_009/Arm1/Arm2/Arm3/Arm4/Arm5
+        weight: 1
+      - path: Armature_001/Bone_009/Arm1/Arm2/Arm3/Arm4/Arm5/Hand
+        weight: 1
+      - path: Armature_001/Bone_010
+        weight: 1
+      - path: Armature_001/Bone_010/Bone_011
+        weight: 1
+      - path: Armature_001/Bone_010/Bone_011/Bone_012
+        weight: 1
+      - path: Armature_001/Bone_010/Bone_011/Bone_012/Bone_013
+        weight: 1
+      - path: Armature_001/Bone_010/Bone_011/Bone_012/Bone_013/Bone_014
+        weight: 1
+      - path: Armature_001/Bone_010/Bone_011/Bone_012/Bone_013/Bone_014/Bone_015
+        weight: 1
+      - path: Armature_001/Bone_010/Bone_011/Bone_012/Bone_013/Bone_014/Bone_015/Bone_016
+        weight: 1
+      - path: Armature_001/Bone_017
+        weight: 1
+      - path: Armature_001/Bone_017/Bone_018
+        weight: 1
+      - path: Armature_001/Bone_017/Bone_018/Bone_019
+        weight: 1
+      - path: Armature_001/Bone_017/Bone_018/Bone_019/Bone_020
+        weight: 1
+      - path: Armature_001/Bone_017/Bone_018/Bone_019/Bone_020/Bone_021
+        weight: 1
+      - path: Armature_001/Bone_017/Bone_018/Bone_019/Bone_020/Bone_021/Bone_022
+        weight: 1
+      - path: Armature_001/Bone_017/Bone_018/Bone_019/Bone_020/Bone_021/Bone_022/Bone_023
+        weight: 1
+      - path: Armature_001/Bone_024
+        weight: 1
+      - path: Circle_002
+        weight: 1
+      - path: Cube
+        weight: 1
+      - path: Cylinder
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: 709WBWalk
+      takeName: 709WBWalk
+      firstFrame: -1
       lastFrame: 74
       wrapMode: 2
       orientationOffsetY: 0
@@ -244,9 +321,7 @@ ModelImporter:
         weight: 1
       - path: Cube
         weight: 1
-      - path: Cube/Camera
-        weight: 1
-      - path: Cylinder_002
+      - path: Cylinder
         weight: 1
       maskType: 0
       maskSource: {instanceID: 0}
