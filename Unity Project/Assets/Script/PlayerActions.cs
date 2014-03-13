@@ -30,14 +30,18 @@ public class PlayerActions : MonoBehaviour
 	public Transform faceDirection;
 	
 	public Transform swordToEnable;
-	
+
+	public Transform playerObject;
+
 	public float attackDistance = 10f;
 	public float attackTime = 0.7f;
 	public float attackCoolDown = 0.5f;
 	private float attackTimeLeft;
 	private float attackCoolLeft;
 	private Vector3 attackDirection;
-	
+
+	public float playerSlerpSpeed=5;
+
 	private bool attacking;
 
 	// Use this for initialization
@@ -153,7 +157,7 @@ public class PlayerActions : MonoBehaviour
 
 			// if not in Air, attackDirection = transform.forward?
 			attackDirection =  faceDirection.rotation * Vector3.forward;
-			
+
 			attackTimeLeft = attackTime;
 			attackCoolLeft = attackCoolDown;
 			
@@ -165,6 +169,8 @@ public class PlayerActions : MonoBehaviour
 			if (attackTimeLeft>0)
 			{
 				this.GetComponent<CharacterController>().Move(attackDirection * (attackDistance/(attackTime/Time.deltaTime)));
+				//transform player too TODO enable this
+				//playerObject.rotation = Quaternion.Slerp(playerObject.rotation, Quaternion.LookRotation(attackDirection), Time.deltaTime * playerSlerpSpeed);
 				attackTimeLeft -= Time.deltaTime;
 			}
 			else
