@@ -1,0 +1,364 @@
+fileFormatVersion: 2
+guid: ad756fb6252817a43895acc15979c157
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Arm1
+    100004: Arm2
+    100006: Arm3
+    100008: Arm4
+    100010: Arm5
+    100012: Armature_001
+    100014: Bone_009
+    100016: Bone_010
+    100018: Bone_011
+    100020: Bone_012
+    100022: Bone_013
+    100024: Bone_014
+    100026: Bone_015
+    100028: Bone_016
+    100030: Bone_017
+    100032: Bone_018
+    100034: Bone_019
+    100036: Bone_020
+    100038: Bone_021
+    100040: Bone_022
+    100042: Bone_023
+    100044: Bone_024
+    100046: Circle_002
+    100048: Cube
+    100050: Cylinder
+    100052: Hand
+    400000: //RootNode
+    400002: Arm1
+    400004: Arm2
+    400006: Arm3
+    400008: Arm4
+    400010: Arm5
+    400012: Armature_001
+    400014: Bone_009
+    400016: Bone_010
+    400018: Bone_011
+    400020: Bone_012
+    400022: Bone_013
+    400024: Bone_014
+    400026: Bone_015
+    400028: Bone_016
+    400030: Bone_017
+    400032: Bone_018
+    400034: Bone_019
+    400036: Bone_020
+    400038: Bone_021
+    400040: Bone_022
+    400042: Bone_023
+    400044: Bone_024
+    400046: Circle_002
+    400048: Cube
+    400050: Cylinder
+    400052: Hand
+    2300000: Cube
+    2300002: Cylinder
+    3300000: Cube
+    3300002: Cylinder
+    4300000: Cylinder
+    4300002: Cube
+    4300004: Circle_002
+    7400000: Default Take
+    7400002: 709WBDeploy
+    7400004: 709WBWalk
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: Circle_002
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Default Take
+      takeName: Default Take
+      firstFrame: 0
+      lastFrame: 114
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature_001
+        weight: 1
+      - path: Armature_001/Bone_009
+        weight: 1
+      - path: Armature_001/Bone_009/Arm1
+        weight: 1
+      - path: Armature_001/Bone_009/Arm1/Arm2
+        weight: 1
+      - path: Armature_001/Bone_009/Arm1/Arm2/Arm3
+        weight: 1
+      - path: Armature_001/Bone_009/Arm1/Arm2/Arm3/Arm4
+        weight: 1
+      - path: Armature_001/Bone_009/Arm1/Arm2/Arm3/Arm4/Arm5
+        weight: 1
+      - path: Armature_001/Bone_009/Arm1/Arm2/Arm3/Arm4/Arm5/Hand
+        weight: 1
+      - path: Armature_001/Bone_010
+        weight: 1
+      - path: Armature_001/Bone_010/Bone_011
+        weight: 1
+      - path: Armature_001/Bone_010/Bone_011/Bone_012
+        weight: 1
+      - path: Armature_001/Bone_010/Bone_011/Bone_012/Bone_013
+        weight: 1
+      - path: Armature_001/Bone_010/Bone_011/Bone_012/Bone_013/Bone_014
+        weight: 1
+      - path: Armature_001/Bone_010/Bone_011/Bone_012/Bone_013/Bone_014/Bone_015
+        weight: 1
+      - path: Armature_001/Bone_010/Bone_011/Bone_012/Bone_013/Bone_014/Bone_015/Bone_016
+        weight: 1
+      - path: Armature_001/Bone_017
+        weight: 1
+      - path: Armature_001/Bone_017/Bone_018
+        weight: 1
+      - path: Armature_001/Bone_017/Bone_018/Bone_019
+        weight: 1
+      - path: Armature_001/Bone_017/Bone_018/Bone_019/Bone_020
+        weight: 1
+      - path: Armature_001/Bone_017/Bone_018/Bone_019/Bone_020/Bone_021
+        weight: 1
+      - path: Armature_001/Bone_017/Bone_018/Bone_019/Bone_020/Bone_021/Bone_022
+        weight: 1
+      - path: Armature_001/Bone_017/Bone_018/Bone_019/Bone_020/Bone_021/Bone_022/Bone_023
+        weight: 1
+      - path: Armature_001/Bone_024
+        weight: 1
+      - path: Circle_002
+        weight: 1
+      - path: Cube
+        weight: 1
+      - path: Cylinder
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: 709WBDeploy
+      takeName: 709WBDeploy
+      firstFrame: -1
+      lastFrame: 39
+      wrapMode: 1
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature_001
+        weight: 1
+      - path: Armature_001/Bone_009
+        weight: 1
+      - path: Armature_001/Bone_009/Arm1
+        weight: 1
+      - path: Armature_001/Bone_009/Arm1/Arm2
+        weight: 1
+      - path: Armature_001/Bone_009/Arm1/Arm2/Arm3
+        weight: 1
+      - path: Armature_001/Bone_009/Arm1/Arm2/Arm3/Arm4
+        weight: 1
+      - path: Armature_001/Bone_009/Arm1/Arm2/Arm3/Arm4/Arm5
+        weight: 1
+      - path: Armature_001/Bone_009/Arm1/Arm2/Arm3/Arm4/Arm5/Hand
+        weight: 1
+      - path: Armature_001/Bone_010
+        weight: 1
+      - path: Armature_001/Bone_010/Bone_011
+        weight: 1
+      - path: Armature_001/Bone_010/Bone_011/Bone_012
+        weight: 1
+      - path: Armature_001/Bone_010/Bone_011/Bone_012/Bone_013
+        weight: 1
+      - path: Armature_001/Bone_010/Bone_011/Bone_012/Bone_013/Bone_014
+        weight: 1
+      - path: Armature_001/Bone_010/Bone_011/Bone_012/Bone_013/Bone_014/Bone_015
+        weight: 1
+      - path: Armature_001/Bone_010/Bone_011/Bone_012/Bone_013/Bone_014/Bone_015/Bone_016
+        weight: 1
+      - path: Armature_001/Bone_017
+        weight: 1
+      - path: Armature_001/Bone_017/Bone_018
+        weight: 1
+      - path: Armature_001/Bone_017/Bone_018/Bone_019
+        weight: 1
+      - path: Armature_001/Bone_017/Bone_018/Bone_019/Bone_020
+        weight: 1
+      - path: Armature_001/Bone_017/Bone_018/Bone_019/Bone_020/Bone_021
+        weight: 1
+      - path: Armature_001/Bone_017/Bone_018/Bone_019/Bone_020/Bone_021/Bone_022
+        weight: 1
+      - path: Armature_001/Bone_017/Bone_018/Bone_019/Bone_020/Bone_021/Bone_022/Bone_023
+        weight: 1
+      - path: Armature_001/Bone_024
+        weight: 1
+      - path: Circle_002
+        weight: 1
+      - path: Cube
+        weight: 1
+      - path: Cylinder
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: 709WBWalk
+      takeName: 709WBWalk
+      firstFrame: -1
+      lastFrame: 74
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature_001
+        weight: 1
+      - path: Armature_001/Bone_009
+        weight: 1
+      - path: Armature_001/Bone_009/Arm1
+        weight: 1
+      - path: Armature_001/Bone_009/Arm1/Arm2
+        weight: 1
+      - path: Armature_001/Bone_009/Arm1/Arm2/Arm3
+        weight: 1
+      - path: Armature_001/Bone_009/Arm1/Arm2/Arm3/Arm4
+        weight: 1
+      - path: Armature_001/Bone_009/Arm1/Arm2/Arm3/Arm4/Arm5
+        weight: 1
+      - path: Armature_001/Bone_009/Arm1/Arm2/Arm3/Arm4/Arm5/Hand
+        weight: 1
+      - path: Armature_001/Bone_010
+        weight: 1
+      - path: Armature_001/Bone_010/Bone_011
+        weight: 1
+      - path: Armature_001/Bone_010/Bone_011/Bone_012
+        weight: 1
+      - path: Armature_001/Bone_010/Bone_011/Bone_012/Bone_013
+        weight: 1
+      - path: Armature_001/Bone_010/Bone_011/Bone_012/Bone_013/Bone_014
+        weight: 1
+      - path: Armature_001/Bone_010/Bone_011/Bone_012/Bone_013/Bone_014/Bone_015
+        weight: 1
+      - path: Armature_001/Bone_010/Bone_011/Bone_012/Bone_013/Bone_014/Bone_015/Bone_016
+        weight: 1
+      - path: Armature_001/Bone_017
+        weight: 1
+      - path: Armature_001/Bone_017/Bone_018
+        weight: 1
+      - path: Armature_001/Bone_017/Bone_018/Bone_019
+        weight: 1
+      - path: Armature_001/Bone_017/Bone_018/Bone_019/Bone_020
+        weight: 1
+      - path: Armature_001/Bone_017/Bone_018/Bone_019/Bone_020/Bone_021
+        weight: 1
+      - path: Armature_001/Bone_017/Bone_018/Bone_019/Bone_020/Bone_021/Bone_022
+        weight: 1
+      - path: Armature_001/Bone_017/Bone_018/Bone_019/Bone_020/Bone_021/Bone_022/Bone_023
+        weight: 1
+      - path: Armature_001/Bone_024
+        weight: 1
+      - path: Circle_002
+        weight: 1
+      - path: Cube
+        weight: 1
+      - path: Cylinder
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  userData: 
