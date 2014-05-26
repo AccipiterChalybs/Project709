@@ -53,9 +53,11 @@
      <Compile Include="Assets\Script\OrbitalLauncher.cs" />
      <Compile Include="Assets\Script\PlayerActions.cs" />
      <Compile Include="Assets\Script\PlayerAnimator.cs" />
+     <Compile Include="Assets\Script\PlayerDamaged.cs" />
      <Compile Include="Assets\Script\SideStep.cs" />
      <Compile Include="Assets\Script\Spawner.cs" />
      <Compile Include="Assets\Script\TransformSpawner.cs" />
+     <Compile Include="Assets\Script\WarBotAttack.cs" />
      <Compile Include="Assets\Script\swordHold.cs" />
      <Compile Include="Assets\Script\walkAnimator.cs" />
   </ItemGroup>
